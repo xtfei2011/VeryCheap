@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7942004C1F998462009186FC /* UIButton+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7942004B1F998462009186FC /* UIButton+TFExtension.m */; };
+		794200511F999D6E009186FC /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7942004E1F999D6E009186FC /* UIView+TFExtension.m */; };
+		794200521F999D6E009186FC /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 794200501F999D6E009186FC /* UIBarButtonItem+TFExtension.m */; };
+		794200581F99EAC3009186FC /* TFCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794200571F99EAC3009186FC /* TFCommentViewController.m */; };
+		794D094F1F98A4C300925956 /* TFBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D09481F98A4C300925956 /* TFBanner.m */; };
+		794D09501F98A4C300925956 /* TFBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D094B1F98A4C300925956 /* TFBannerView.m */; };
+		794D09511F98A4C300925956 /* TFBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D094D1F98A4C300925956 /* TFBannerViewCell.m */; };
+		794D09521F98A4C300925956 /* TFBannerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794D094E1F98A4C300925956 /* TFBannerViewCell.xib */; };
+		794D09551F98A69200925956 /* TFSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D09541F98A69200925956 /* TFSlideMenu.m */; };
+		79518C401F958F8100E7F91E /* TFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C3F1F958F8100E7F91E /* TFNavigationController.m */; };
+		79518C431F9595D700E7F91E /* TFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C421F9595D700E7F91E /* TFHomeViewController.m */; };
+		79518C461F9595F100E7F91E /* TFCouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C451F9595F100E7F91E /* TFCouponsViewController.m */; };
+		79518C491F95960E00E7F91E /* TFSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C481F95960E00E7F91E /* TFSpecialViewController.m */; };
+		79518C4C1F95961F00E7F91E /* TFMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C4B1F95961F00E7F91E /* TFMineViewController.m */; };
+		79518C671F95F07000E7F91E /* TFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C661F95F07000E7F91E /* TFNetworkTools.m */; };
 		799367391F949F59001A2E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367381F949F59001A2E1A /* AppDelegate.m */; };
-		7993673C1F949F59001A2E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7993673B1F949F59001A2E1A /* ViewController.m */; };
-		7993673F1F949F59001A2E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7993673D1F949F59001A2E1A /* Main.storyboard */; };
 		799367411F949F59001A2E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799367401F949F59001A2E1A /* Assets.xcassets */; };
-		799367441F949F59001A2E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799367421F949F59001A2E1A /* LaunchScreen.storyboard */; };
 		799367471F949F59001A2E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367461F949F59001A2E1A /* main.m */; };
 		799367511F949F5A001A2E1A /* VeryCheapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367501F949F5A001A2E1A /* VeryCheapTests.m */; };
 		7993675C1F949F5A001A2E1A /* VeryCheapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7993675B1F949F5A001A2E1A /* VeryCheapUITests.m */; };
+		799367D51F94A7A7001A2E1A /* TFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367D41F94A7A7001A2E1A /* TFTabBarController.m */; };
+		79EDF5351FA6CBE400959EBE /* TFCategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */; };
+		79EDF5391FA6D3D600959EBE /* TFSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */; };
+		79EDF53D1FA6EF3C00959EBE /* TFHomeListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */; };
+		79EDF53E1FA6EF3C00959EBE /* TFHomeListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */; };
+		B4F7A0DFCED6144E57B0F41B /* libPods-VeryCheap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +53,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113EC30A78A8EF94157179B2 /* Pods-VeryCheap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryCheap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap.debug.xcconfig"; sourceTree = "<group>"; };
+		536D05F5AD14A4217A69230E /* Pods-VeryCheap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryCheap.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap.release.xcconfig"; sourceTree = "<group>"; };
+		69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VeryCheap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7942004A1F998462009186FC /* UIButton+TFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFExtension.h"; sourceTree = "<group>"; };
+		7942004B1F998462009186FC /* UIButton+TFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFExtension.m"; sourceTree = "<group>"; };
+		7942004D1F999D6E009186FC /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
+		7942004E1F999D6E009186FC /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
+		7942004F1F999D6E009186FC /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
+		794200501F999D6E009186FC /* UIBarButtonItem+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TFExtension.m"; sourceTree = "<group>"; };
+		794200561F99EAC3009186FC /* TFCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCommentViewController.h; sourceTree = "<group>"; };
+		794200571F99EAC3009186FC /* TFCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCommentViewController.m; sourceTree = "<group>"; };
+		794D09471F98A4C300925956 /* TFBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBanner.h; sourceTree = "<group>"; };
+		794D09481F98A4C300925956 /* TFBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFBanner.m; sourceTree = "<group>"; };
+		794D094A1F98A4C300925956 /* TFBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBannerView.h; sourceTree = "<group>"; };
+		794D094B1F98A4C300925956 /* TFBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFBannerView.m; sourceTree = "<group>"; };
+		794D094C1F98A4C300925956 /* TFBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBannerViewCell.h; sourceTree = "<group>"; };
+		794D094D1F98A4C300925956 /* TFBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFBannerViewCell.m; sourceTree = "<group>"; };
+		794D094E1F98A4C300925956 /* TFBannerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFBannerViewCell.xib; sourceTree = "<group>"; };
+		794D09531F98A69200925956 /* TFSlideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSlideMenu.h; sourceTree = "<group>"; };
+		794D09541F98A69200925956 /* TFSlideMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSlideMenu.m; sourceTree = "<group>"; };
+		79518C3E1F958F8100E7F91E /* TFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNavigationController.h; sourceTree = "<group>"; };
+		79518C3F1F958F8100E7F91E /* TFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavigationController.m; sourceTree = "<group>"; };
+		79518C411F9595D700E7F91E /* TFHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFHomeViewController.h; sourceTree = "<group>"; };
+		79518C421F9595D700E7F91E /* TFHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFHomeViewController.m; sourceTree = "<group>"; };
+		79518C441F9595F100E7F91E /* TFCouponsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCouponsViewController.h; sourceTree = "<group>"; };
+		79518C451F9595F100E7F91E /* TFCouponsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCouponsViewController.m; sourceTree = "<group>"; };
+		79518C471F95960E00E7F91E /* TFSpecialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSpecialViewController.h; sourceTree = "<group>"; };
+		79518C481F95960E00E7F91E /* TFSpecialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSpecialViewController.m; sourceTree = "<group>"; };
+		79518C4A1F95961F00E7F91E /* TFMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMineViewController.h; sourceTree = "<group>"; };
+		79518C4B1F95961F00E7F91E /* TFMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFMineViewController.m; sourceTree = "<group>"; };
+		79518C651F95F07000E7F91E /* TFNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNetworkTools.h; sourceTree = "<group>"; };
+		79518C661F95F07000E7F91E /* TFNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNetworkTools.m; sourceTree = "<group>"; };
 		799367341F949F59001A2E1A /* VeryCheap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryCheap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799367371F949F59001A2E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		799367381F949F59001A2E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7993673A1F949F59001A2E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7993673B1F949F59001A2E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7993673E1F949F59001A2E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		799367401F949F59001A2E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		799367431F949F59001A2E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		799367451F949F59001A2E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		799367461F949F59001A2E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7993674C1F949F59001A2E1A /* VeryCheapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryCheapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +97,17 @@
 		799367571F949F5A001A2E1A /* VeryCheapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeryCheapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7993675B1F949F5A001A2E1A /* VeryCheapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeryCheapUITests.m; sourceTree = "<group>"; };
 		7993675D1F949F5A001A2E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799367CB1F94A58A001A2E1A /* TFInterfacePrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFInterfacePrefix.pch; sourceTree = "<group>"; };
+		799367CC1F94A58A001A2E1A /* TFMacroPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMacroPrefix.pch; sourceTree = "<group>"; };
+		799367D31F94A7A7001A2E1A /* TFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTabBarController.h; sourceTree = "<group>"; };
+		799367D41F94A7A7001A2E1A /* TFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTabBarController.m; sourceTree = "<group>"; };
+		79EDF5321FA6CBE400959EBE /* TFCategoryViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCategoryViewCell.h; sourceTree = "<group>"; };
+		79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCategoryViewCell.m; sourceTree = "<group>"; };
+		79EDF5371FA6D3D600959EBE /* TFSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSelectionViewController.h; sourceTree = "<group>"; };
+		79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSelectionViewController.m; sourceTree = "<group>"; };
+		79EDF53A1FA6EF3C00959EBE /* TFHomeListViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFHomeListViewCell.h; sourceTree = "<group>"; };
+		79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFHomeListViewCell.m; sourceTree = "<group>"; };
+		79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFHomeListViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F7A0DFCED6144E57B0F41B /* libPods-VeryCheap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +136,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		792E90901F98A17F000E89FF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				792E90911F98A17F000E89FF /* Controller */,
+				792E90921F98A17F000E89FF /* Model */,
+				792E90931F98A17F000E89FF /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		792E90911F98A17F000E89FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				794200561F99EAC3009186FC /* TFCommentViewController.h */,
+				794200571F99EAC3009186FC /* TFCommentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		792E90921F98A17F000E89FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		792E90931F98A17F000E89FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				794D09531F98A69200925956 /* TFSlideMenu.h */,
+				794D09541F98A69200925956 /* TFSlideMenu.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		794D09451F98A4C300925956 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				794D09461F98A4C300925956 /* Model */,
+				794D09491F98A4C300925956 /* View */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		794D09461F98A4C300925956 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				794D09471F98A4C300925956 /* TFBanner.h */,
+				794D09481F98A4C300925956 /* TFBanner.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		794D09491F98A4C300925956 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				794D094A1F98A4C300925956 /* TFBannerView.h */,
+				794D094B1F98A4C300925956 /* TFBannerView.m */,
+				794D094C1F98A4C300925956 /* TFBannerViewCell.h */,
+				794D094D1F98A4C300925956 /* TFBannerViewCell.m */,
+				794D094E1F98A4C300925956 /* TFBannerViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7993672B1F949F59001A2E1A = {
 			isa = PBXGroup;
 			children = (
 				799367361F949F59001A2E1A /* VeryCheap */,
+				799367D61F94A9C6001A2E1A /* Supporting Files */,
 				7993674F1F949F5A001A2E1A /* VeryCheapTests */,
 				7993675A1F949F5A001A2E1A /* VeryCheapUITests */,
 				799367351F949F59001A2E1A /* Products */,
+				B761A9439C3188B2C083A337 /* Pods */,
+				7DA70A68363AF1E88F023266 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +227,7 @@
 		799367361F949F59001A2E1A /* VeryCheap */ = {
 			isa = PBXGroup;
 			children = (
-				799367371F949F59001A2E1A /* AppDelegate.h */,
-				799367381F949F59001A2E1A /* AppDelegate.m */,
-				7993673A1F949F59001A2E1A /* ViewController.h */,
-				7993673B1F949F59001A2E1A /* ViewController.m */,
-				7993673D1F949F59001A2E1A /* Main.storyboard */,
-				799367401F949F59001A2E1A /* Assets.xcassets */,
-				799367421F949F59001A2E1A /* LaunchScreen.storyboard */,
-				799367451F949F59001A2E1A /* Info.plist */,
-				799367461F949F59001A2E1A /* main.m */,
+				7993679E1F94A58A001A2E1A /* Classes */,
 			);
 			path = VeryCheap;
 			sourceTree = "<group>";
@@ -132,6 +250,322 @@
 			path = VeryCheapUITests;
 			sourceTree = "<group>";
 		};
+		7993679E1F94A58A001A2E1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				799367C11F94A58A001A2E1A /* Newfeature(新特性) */,
+				7993679F1F94A58A001A2E1A /* Comment(公共) */,
+				799367AD1F94A58A001A2E1A /* Home(首页) */,
+				799367A31F94A58A001A2E1A /* Coupons(找劵) */,
+				799367CD1F94A58A001A2E1A /* Special(特卖) */,
+				799367BB1F94A58A001A2E1A /* Mine(我的) */,
+				799367B31F94A58A001A2E1A /* Main(主要) */,
+				799367C21F94A58A001A2E1A /* Other(其他) */,
+				799367A91F94A58A001A2E1A /* Details(详情) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7993679F1F94A58A001A2E1A /* Comment(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				794D09451F98A4C300925956 /* Banner */,
+				792E90901F98A17F000E89FF /* Other */,
+			);
+			path = "Comment(公共)";
+			sourceTree = "<group>";
+		};
+		799367A31F94A58A001A2E1A /* Coupons(找劵) */ = {
+			isa = PBXGroup;
+			children = (
+				799367A41F94A58A001A2E1A /* Controller */,
+				799367A71F94A58A001A2E1A /* Model */,
+				799367A81F94A58A001A2E1A /* View */,
+			);
+			path = "Coupons(找劵)";
+			sourceTree = "<group>";
+		};
+		799367A41F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79518C441F9595F100E7F91E /* TFCouponsViewController.h */,
+				79518C451F9595F100E7F91E /* TFCouponsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367A71F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367A81F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367A91F94A58A001A2E1A /* Details(详情) */ = {
+			isa = PBXGroup;
+			children = (
+				799367AA1F94A58A001A2E1A /* Controller */,
+				799367AB1F94A58A001A2E1A /* Model */,
+				799367AC1F94A58A001A2E1A /* View */,
+			);
+			path = "Details(详情)";
+			sourceTree = "<group>";
+		};
+		799367AA1F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367AB1F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367AC1F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367AD1F94A58A001A2E1A /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				799367AE1F94A58A001A2E1A /* Controller */,
+				799367B11F94A58A001A2E1A /* Model */,
+				799367B21F94A58A001A2E1A /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		799367AE1F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79518C411F9595D700E7F91E /* TFHomeViewController.h */,
+				79518C421F9595D700E7F91E /* TFHomeViewController.m */,
+				79EDF5371FA6D3D600959EBE /* TFSelectionViewController.h */,
+				79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367B11F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367B21F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79EDF5321FA6CBE400959EBE /* TFCategoryViewCell.h */,
+				79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */,
+				79EDF53A1FA6EF3C00959EBE /* TFHomeListViewCell.h */,
+				79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */,
+				79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367B31F94A58A001A2E1A /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				799367B41F94A58A001A2E1A /* Controller */,
+				799367B91F94A58A001A2E1A /* Model */,
+				799367BA1F94A58A001A2E1A /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		799367B41F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79518C3E1F958F8100E7F91E /* TFNavigationController.h */,
+				79518C3F1F958F8100E7F91E /* TFNavigationController.m */,
+				799367D31F94A7A7001A2E1A /* TFTabBarController.h */,
+				799367D41F94A7A7001A2E1A /* TFTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367B91F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367BA1F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				799367371F949F59001A2E1A /* AppDelegate.h */,
+				799367381F949F59001A2E1A /* AppDelegate.m */,
+				799367461F949F59001A2E1A /* main.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367BB1F94A58A001A2E1A /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				799367BC1F94A58A001A2E1A /* Controller */,
+				799367BF1F94A58A001A2E1A /* Model */,
+				799367C01F94A58A001A2E1A /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		799367BC1F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79518C4A1F95961F00E7F91E /* TFMineViewController.h */,
+				79518C4B1F95961F00E7F91E /* TFMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367BF1F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367C01F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367C11F94A58A001A2E1A /* Newfeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Newfeature(新特性)";
+			sourceTree = "<group>";
+		};
+		799367C21F94A58A001A2E1A /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				799367C31F94A58A001A2E1A /* Account */,
+				799367C41F94A58A001A2E1A /* Category */,
+				799367C91F94A58A001A2E1A /* NetWorkTool */,
+				799367CA1F94A58A001A2E1A /* PrefixHeader */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		799367C31F94A58A001A2E1A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		799367C41F94A58A001A2E1A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7942004D1F999D6E009186FC /* UIBarButtonItem+TFExtension.h */,
+				794200501F999D6E009186FC /* UIBarButtonItem+TFExtension.m */,
+				7942004F1F999D6E009186FC /* UIView+TFExtension.h */,
+				7942004E1F999D6E009186FC /* UIView+TFExtension.m */,
+				7942004A1F998462009186FC /* UIButton+TFExtension.h */,
+				7942004B1F998462009186FC /* UIButton+TFExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		799367C91F94A58A001A2E1A /* NetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				79518C651F95F07000E7F91E /* TFNetworkTools.h */,
+				79518C661F95F07000E7F91E /* TFNetworkTools.m */,
+			);
+			path = NetWorkTool;
+			sourceTree = "<group>";
+		};
+		799367CA1F94A58A001A2E1A /* PrefixHeader */ = {
+			isa = PBXGroup;
+			children = (
+				799367CB1F94A58A001A2E1A /* TFInterfacePrefix.pch */,
+				799367CC1F94A58A001A2E1A /* TFMacroPrefix.pch */,
+			);
+			path = PrefixHeader;
+			sourceTree = "<group>";
+		};
+		799367CD1F94A58A001A2E1A /* Special(特卖) */ = {
+			isa = PBXGroup;
+			children = (
+				799367CE1F94A58A001A2E1A /* Controller */,
+				799367D11F94A58A001A2E1A /* Model */,
+				799367D21F94A58A001A2E1A /* View */,
+			);
+			path = "Special(特卖)";
+			sourceTree = "<group>";
+		};
+		799367CE1F94A58A001A2E1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79518C471F95960E00E7F91E /* TFSpecialViewController.h */,
+				79518C481F95960E00E7F91E /* TFSpecialViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799367D11F94A58A001A2E1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799367D21F94A58A001A2E1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799367D61F94A9C6001A2E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				799367401F949F59001A2E1A /* Assets.xcassets */,
+				799367451F949F59001A2E1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = VeryCheap;
+			sourceTree = "<group>";
+		};
+		7DA70A68363AF1E88F023266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B761A9439C3188B2C083A337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				113EC30A78A8EF94157179B2 /* Pods-VeryCheap.debug.xcconfig */,
+				536D05F5AD14A4217A69230E /* Pods-VeryCheap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +573,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 799367601F949F5A001A2E1A /* Build configuration list for PBXNativeTarget "VeryCheap" */;
 			buildPhases = (
+				A8FF40931CE8E16ECF65D699 /* [CP] Check Pods Manifest.lock */,
 				799367301F949F59001A2E1A /* Sources */,
 				799367311F949F59001A2E1A /* Frameworks */,
 				799367321F949F59001A2E1A /* Resources */,
+				EA671BAC298AC51C7A477815 /* [CP] Embed Pods Frameworks */,
+				CA8E4F5EA77515493FA0B843 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +631,7 @@
 		7993672C1F949F59001A2E1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TF;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "谢腾飞";
 				TargetAttributes = {
@@ -238,9 +676,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799367441F949F59001A2E1A /* LaunchScreen.storyboard in Resources */,
+				794D09521F98A4C300925956 /* TFBannerViewCell.xib in Resources */,
+				79EDF53E1FA6EF3C00959EBE /* TFHomeListViewCell.xib in Resources */,
 				799367411F949F59001A2E1A /* Assets.xcassets in Resources */,
-				7993673F1F949F59001A2E1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +698,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8FF40931CE8E16ECF65D699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeryCheap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8E4F5EA77515493FA0B843 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA671BAC298AC51C7A477815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		799367301F949F59001A2E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7993673C1F949F59001A2E1A /* ViewController.m in Sources */,
+				799367D51F94A7A7001A2E1A /* TFTabBarController.m in Sources */,
+				79518C401F958F8100E7F91E /* TFNavigationController.m in Sources */,
+				79518C461F9595F100E7F91E /* TFCouponsViewController.m in Sources */,
+				79518C4C1F95961F00E7F91E /* TFMineViewController.m in Sources */,
+				794D09511F98A4C300925956 /* TFBannerViewCell.m in Sources */,
+				79EDF53D1FA6EF3C00959EBE /* TFHomeListViewCell.m in Sources */,
+				794D09551F98A69200925956 /* TFSlideMenu.m in Sources */,
 				799367471F949F59001A2E1A /* main.m in Sources */,
+				79518C491F95960E00E7F91E /* TFSpecialViewController.m in Sources */,
+				794200521F999D6E009186FC /* UIBarButtonItem+TFExtension.m in Sources */,
+				794200511F999D6E009186FC /* UIView+TFExtension.m in Sources */,
+				79EDF5351FA6CBE400959EBE /* TFCategoryViewCell.m in Sources */,
+				79518C671F95F07000E7F91E /* TFNetworkTools.m in Sources */,
+				794D094F1F98A4C300925956 /* TFBanner.m in Sources */,
+				79518C431F9595D700E7F91E /* TFHomeViewController.m in Sources */,
+				7942004C1F998462009186FC /* UIButton+TFExtension.m in Sources */,
 				799367391F949F59001A2E1A /* AppDelegate.m in Sources */,
+				794D09501F98A4C300925956 /* TFBannerView.m in Sources */,
+				79EDF5391FA6D3D600959EBE /* TFSelectionViewController.m in Sources */,
+				794200581F99EAC3009186FC /* TFCommentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +810,6 @@
 			targetProxy = 799367581F949F5A001A2E1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7993673D1F949F59001A2E1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7993673E1F949F59001A2E1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		799367421F949F59001A2E1A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				799367431F949F59001A2E1A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7993675E1F949F5A001A2E1A /* Debug */ = {
@@ -360,6 +850,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -413,6 +904,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -428,29 +920,37 @@
 		};
 		799367611F949F5A001A2E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113EC30A78A8EF94157179B2 /* Pods-VeryCheap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C56SAX333T;
+				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				INFOPLIST_FILE = VeryCheap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xtfei.VeryCheap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		799367621F949F5A001A2E1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536D05F5AD14A4217A69230E /* Pods-VeryCheap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C56SAX333T;
+				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				INFOPLIST_FILE = VeryCheap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xtfei.VeryCheap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
