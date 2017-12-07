@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TFMineViewController : UIViewController
+@interface TFMineViewController : UITableViewController
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TFSelection.h"
 
 @interface TFHomeListViewCell : UITableViewCell
-
+@property (nonatomic ,strong) TFSelection *selection;
 @end

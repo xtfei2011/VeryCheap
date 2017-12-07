@@ -19,6 +19,12 @@
 #import "TFNetworkTools.h"
 #import <MJExtension/MJExtension.h>
 #import <UIImageView+WebCache.h>
+#import "TFInterfacePrefix.pch"
+#import <MJRefresh/MJRefresh.h>
+#import "TFRefreshFooter.h"
+#import "TFRefreshHeader.h"
+#import "TFProgressHUD.h"
+#import <UMSocialCore/UMSocialCore.h>
 
 /*** 屏幕大小尺寸 ***/
 #define TFScreeFrame                [UIScreen mainScreen].bounds
@@ -26,6 +32,33 @@
 #define TFMainScreen_Width          [UIScreen mainScreen].bounds.size.width
 #define TFMainScreen_Height         [UIScreen mainScreen].bounds.size.height
 #define TFSelfScreen_Size           self.view.bounds.size
+
+/*** 字体大小 ***/
+#define TFCommodityTitleFont        [UIFont systemFontOfSize:12]
+#define TFCommodityAbolishPriceFont [UIFont systemFontOfSize:11]
+#define TFCommentTitleFont          [UIFont systemFontOfSize:14]
+#define TFPromptTitleFont           [UIFont systemFontOfSize:16]
+
+/*** 分类 ***/
+#define kLeftWidth 80
+#define LeftTabelViewCell           @"TFLeftTableViewCell"
+#define RightCollectionViewCell     @"TFRightCollectionViewCell"
+#define RightCollectionHeader       @"TFRightReusableView"
+
+/*** 友盟分享 KEY***/
+#define shareNameArray @[@"微信",@"朋友圈",@"QQ空间",@"QQ"]
+#define shareImageArray @[@"wechat",@"companion",@"space",@"tencent"]
+
+#define QQAPPID @"1105311618"
+#define QQAPPKEY @"KEYUOiq7Wf86YzsI7PB"
+#define WXAPPID @"wx2b692dd513e5c965"
+#define WXSecret @"c7c39bf64a0939fa85a8d1abbb168e18"
+
+/*** 根控制器 ***/
+#define TFkeyWindowView [UIApplication sharedApplication].keyWindow
+
+// 弱引用
+#define kWeakSelf __weak typeof(self) weakSelf = self;
 
 /*** 日志 ***/
 #ifdef DEBUG
@@ -45,7 +78,7 @@
 #define TFGlobalBg TFColor(239, 239, 239)
 
 /*** 缓存路径 ***/
-#define TFCustomCacheFile [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject stringByAppendingPathComponent:@"Treasure"]
+#define TFCustomCacheFile [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject stringByAppendingPathComponent:@"Custom"]
 
 #endif
 /***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/

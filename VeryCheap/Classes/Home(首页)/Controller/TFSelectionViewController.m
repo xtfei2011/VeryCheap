@@ -11,10 +11,13 @@
 #import "TFBanner.h"
 #import "TFCategoryViewCell.h"
 #import "TFHomeListViewCell.h"
+#import "TFSortCommentViewController.h"
+#import "TFDetailsViewController.h"
 
-@interface TFSelectionViewController ()
-/*** 数据源 ***/
-@property (nonatomic ,strong) NSMutableArray<TFBanner *> *banner;
+@interface TFSelectionViewController ()<TFCategoryBtnDelegate>
+/*** 列表数据源 ***/
+@property (nonatomic ,strong) NSMutableArray<TFSelection *> *selection;
+@property (nonatomic ,assign) NSInteger page;
 @end
 
 @implementation TFSelectionViewController
@@ -25,37 +28,79 @@ static NSString * const HomeListID = @"TFHomeListViewCell";
     
     [super viewDidLoad];
     
+    [self setupTopView];
+    
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 49, 0);
+    self.tableView.backgroundColor = TFGlobalBg;
     /*** 注册 cell ***/
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([TFHomeListViewCell class]) bundle:nil] forCellReuseIdentifier:HomeListID];
-    [self loadHomeViewData];
+   
+    [self setupRefresh];
 }
 
-- (void)setupTopView
+- (void)setupRefresh
 {
-    CGFloat bannerH = 8 *TFMainScreen_Width/25;
+    self.tableView.mj_header = [TFRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadHomeViewData)];
+    [self.tableView.mj_header beginRefreshing];
+    
+    self.tableView.mj_footer = [TFRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreHomeTmallData)];
+}
+
+/*** 轮播View ***/
+- (void)setupTopView  
+{
+    CGFloat bannerH = 2 *TFMainScreen_Width/5;
+    
     TFBannerView *bannerView = [[TFBannerView alloc] initWithFrame:CGRectMake(0, 64, TFMainScreen_Width, bannerH) viewSize:CGSizeMake(CGRectGetWidth(self.view.bounds), bannerH)];
     bannerView.banner = self.banner;
     self.tableView.tableHeaderView = bannerView;
     
-    [bannerView bannerViewClick:^(TFBannerView *barnerView, NSInteger index) {
-        TFLog(@"--->点击了%ld张图",index);
+    [bannerView bannerViewClick:^(TFBannerView *barnerView ,NSString *type ,NSString *name) {
+        [self jumpSortCommentView:type title:name];
     }];
 }
 
 - (void)loadHomeViewData
 {
+    self.page = 1;
     __weak typeof(self) homeSelf = self;
     
-    [TFNetworkTools getResultWithUrl:@"http://api.17gwx.com/index/element?app_installtime=1509330284&app_version=1.3.4&channel_name=AppStore&client_id=4&device_id=AA3E27E6-3390-433E-A8BE-D85916EA34A9&device_info=iPhone6%2C2&gender=0&network=Wifi&os_version=10.3.1&sign=ed5b48d2c28ad0c8463f3f1e8e9c2644&timestamp=1509331218" params:nil success:^(id responseObject) {
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"service"] = @"Default.DDefault";
+    params[@"page"] = @(self.page);
+    [TFNetworkTools getResultWithUrl:Comment_DataInterface params:params success:^(id responseObject) {
         
-        [responseObject writeToFile:@"/Users/xietengfei/Desktop/veryCheap.plist" atomically:YES];
-        NSDictionary *dict = responseObject[@"data"];
+        [homeSelf.tableView.mj_header endRefreshing];
+        NSDictionary *dict = [responseObject[@"data"] objectForKey:@"list"];
         
-        homeSelf.banner = [TFBanner mj_objectArrayWithKeyValuesArray:dict[@"banner_element"]];
-        [self setupTopView];
+        homeSelf.selection = [TFSelection mj_objectArrayWithKeyValuesArray:dict];
         [homeSelf.tableView reloadData];
+        
+    } failure:^(NSError *error) { }];
+}
+
+- (void)loadMoreHomeTmallData
+{
+    self.page ++;
+    __weak typeof(self) homeSelf = self;
+    
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"service"] = @"Default.DDefault";
+    params[@"page"] = @(self.page);
+    
+    [TFNetworkTools getResultWithUrl:Comment_DataInterface params:params success:^(id responseObject) {
+        TFLog(@"--->%@",responseObject);
+        NSDictionary *dict = [responseObject[@"data"] objectForKey:@"list"];
+        
+        NSArray<TFSelection *> *moreSelection = [TFSelection mj_objectArrayWithKeyValuesArray:dict];
+        [homeSelf.tableView.mj_footer endRefreshing];
+        
+        if (moreSelection.count == 0) {
+            [homeSelf.tableView.mj_footer endRefreshingWithNoMoreData];
+        } else {
+            [homeSelf.selection addObjectsFromArray:moreSelection];
+            [homeSelf.tableView reloadData];
+        }
     } failure:^(NSError *error) { }];
 }
 
@@ -66,22 +111,62 @@ static NSString * const HomeListID = @"TFHomeListViewCell";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return section ? 10 : 1;
+    return section ? self.selection.count : 1;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return (indexPath.section == 0) ? 140 : 64;
+    return (indexPath.section == 0) ? 170 : 130;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
         TFCategoryViewCell *cell = [TFCategoryViewCell cellWithTableView:tableView];
+        cell.delegate = self;
         return cell;
     } else {
         TFHomeListViewCell *cell = [tableView dequeueReusableCellWithIdentifier:HomeListID];
+        cell.selection = self.selection[indexPath.row];
         return cell;
     }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    TFDetailsViewController *details = [[TFDetailsViewController alloc] init];
+    details.selection = self.selection[indexPath.row];
+    [self.navigationController pushViewController:details animated:YES];
+}
+
+- (void)sortButtonClick:(UIButton *)sender
+{
+    switch (sender.tag) {
+        case 1000:
+            [self jumpSortCommentView:@"tqg" title:@"淘抢购"];
+            break;
+        case 1001:
+            [self jumpSortCommentView:@"jhs" title:@"聚划算"];
+            break;
+        case 1002:
+            [self jumpSortCommentView:@"ppq" title:@"品牌券"];
+            break;
+        case 1003:
+            [self jumpSortCommentView:@"bmqd" title:@"必买清单"];
+            break;
+            
+        default:
+            break;
+    }
+}
+
+- (void)jumpSortCommentView:(NSString *)type title:(NSString *)title
+{
+    TFSortCommentViewController *sortComment = [[TFSortCommentViewController alloc] init];
+    sortComment.navigationItem.title = title;
+    sortComment.type = type;
+    [self.navigationController pushViewController:sortComment animated:YES];
 }
 @end

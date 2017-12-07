@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TFCouponsViewController : UITableViewController
+@interface TFCouponsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate>
 
+@property (nonatomic ,strong) UITableView *leftTableView;
+@property (nonatomic ,strong) UICollectionView *rightCollectionView;
+@property (nonatomic ,strong) UICollectionViewFlowLayout * layout;
+@property (nonatomic ,strong) NSArray *rightArray;
 @end

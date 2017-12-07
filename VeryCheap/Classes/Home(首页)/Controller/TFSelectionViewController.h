@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TFBanner.h"
 
 @interface TFSelectionViewController : UITableViewController
-
+@property (nonatomic ,copy) NSString *loadKey;
+@property (nonatomic ,strong) NSMutableArray<TFBanner *> *banner;
 @end

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TFHotCollectionViewCell" id="Zd6-Zj-1jp" customClass="TFHotCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="34"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="34"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGi-Al-YYi">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UgN-Uy-HKD">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UgN-Uy-HKD" firstAttribute="top" secondItem="oGi-Al-YYi" secondAttribute="top" constant="8" id="Qbi-8O-FrW"/>
+                            <constraint firstItem="UgN-Uy-HKD" firstAttribute="leading" secondItem="oGi-Al-YYi" secondAttribute="leading" constant="15" id="SJs-n6-XpD"/>
+                            <constraint firstAttribute="bottom" secondItem="UgN-Uy-HKD" secondAttribute="bottom" constant="7" id="WQ0-50-ZTu"/>
+                            <constraint firstAttribute="trailing" secondItem="UgN-Uy-HKD" secondAttribute="trailing" constant="15" id="zKb-uH-xwb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="oGi-Al-YYi" firstAttribute="leading" secondItem="Zd6-Zj-1jp" secondAttribute="leading" id="EWi-6x-cvY"/>
+                <constraint firstAttribute="trailing" secondItem="oGi-Al-YYi" secondAttribute="trailing" id="FCV-Zg-T3Y"/>
+                <constraint firstAttribute="bottom" secondItem="oGi-Al-YYi" secondAttribute="bottom" id="UHF-L2-KMg"/>
+                <constraint firstItem="oGi-Al-YYi" firstAttribute="top" secondItem="Zd6-Zj-1jp" secondAttribute="top" id="W4f-mp-VWq"/>
+            </constraints>
+            <size key="customSize" width="162" height="54"/>
+            <connections>
+                <outlet property="backView" destination="oGi-Al-YYi" id="l6c-e9-c8X"/>
+                <outlet property="labeltitle" destination="UgN-Uy-HKD" id="TTN-S9-AXS"/>
+            </connections>
+            <point key="canvasLocation" x="472" y="294"/>
+        </collectionViewCell>
+    </objects>
+</document>

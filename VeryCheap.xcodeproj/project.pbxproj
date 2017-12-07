@@ -7,6 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790724661FCE472300C65204 /* NSString+TFSegmentProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724641FCE472200C65204 /* NSString+TFSegmentProtocol.m */; };
+		790724691FCEB7C200C65204 /* TFSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724681FCEB7C200C65204 /* TFSelection.m */; };
+		7907246C1FCED90600C65204 /* TFComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907246B1FCED90600C65204 /* TFComment.m */; };
+		790724701FCED92000C65204 /* TFCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907246E1FCED92000C65204 /* TFCommentViewCell.m */; };
+		790724711FCED92000C65204 /* TFCommentViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7907246F1FCED92000C65204 /* TFCommentViewCell.xib */; };
+		790724751FCEF89600C65204 /* TFCategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724731FCEF89600C65204 /* TFCategoryViewCell.m */; };
+		790724761FCEF89600C65204 /* TFCategoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790724741FCEF89600C65204 /* TFCategoryViewCell.xib */; };
+		790724791FCF075C00C65204 /* TFSortCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724781FCF075C00C65204 /* TFSortCommentViewController.m */; };
+		7907247C1FCF109E00C65204 /* TFSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907247B1FCF109E00C65204 /* TFSelectView.m */; };
+		7907247F1FCFC31D00C65204 /* TFRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907247E1FCFC31D00C65204 /* TFRefreshHeader.m */; };
+		790724821FCFC37C00C65204 /* TFRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724811FCFC37C00C65204 /* TFRefreshFooter.m */; };
+		7907248E1FCFD99100C65204 /* TFBasicInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907248B1FCFD99100C65204 /* TFBasicInformationCell.m */; };
+		790724931FCFFD6600C65204 /* TFDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724911FCFFD6600C65204 /* TFDetailsViewController.m */; };
+		790724961FD01B2300C65204 /* TFBasicInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790724951FD01B2200C65204 /* TFBasicInformationCell.xib */; };
+		7907249A1FD0357D00C65204 /* TFCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724991FD0357D00C65204 /* TFCustomNavigationBar.m */; };
+		7907249D1FD037B500C65204 /* TFNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7907249C1FD037B500C65204 /* TFNavigationBar.m */; };
+		790724A31FD14FB100C65204 /* TFDetailsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724A11FD14FB100C65204 /* TFDetailsViewCell.m */; };
+		790724A41FD14FB100C65204 /* TFDetailsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790724A21FD14FB100C65204 /* TFDetailsViewCell.xib */; };
+		790724B41FD1623A00C65204 /* TFWebImageAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724B31FD1623A00C65204 /* TFWebImageAutoSize.m */; };
+		790724B71FD1626600C65204 /* UITableView+TFWebImageAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724B61FD1626600C65204 /* UITableView+TFWebImageAutoSize.m */; };
+		790724BA1FD1628D00C65204 /* NSString+TFCacheFileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724B91FD1628D00C65204 /* NSString+TFCacheFileName.m */; };
+		790724BD1FD162A600C65204 /* TFWebImageAutoSizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724BC1FD162A600C65204 /* TFWebImageAutoSizeCache.m */; };
+		790724C01FD1880400C65204 /* TFDetailBottomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724BF1FD1880400C65204 /* TFDetailBottomTool.m */; };
+		790724C21FD1881000C65204 /* TFDetailBottomTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790724C11FD1881000C65204 /* TFDetailBottomTool.xib */; };
+		790724C51FD18A9B00C65204 /* TFDetailBottomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724C41FD18A9B00C65204 /* TFDetailBottomBtn.m */; };
+		790724C81FD2AF7300C65204 /* TFDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724C71FD2AF7300C65204 /* TFDetails.m */; };
+		790724CB1FD2D13C00C65204 /* TFCoupons.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724CA1FD2D13C00C65204 /* TFCoupons.m */; };
+		790724CE1FD2D16000C65204 /* TFRightReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724CD1FD2D16000C65204 /* TFRightReusableView.m */; };
+		790724D11FD2D17E00C65204 /* TFRightCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724D01FD2D17E00C65204 /* TFRightCollectionViewCell.m */; };
+		790724D41FD2D19300C65204 /* TFLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724D31FD2D19300C65204 /* TFLeftTableViewCell.m */; };
+		790724D71FD2E10E00C65204 /* TFCouponsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724D61FD2E10E00C65204 /* TFCouponsListController.m */; };
+		790724DA1FD2E87400C65204 /* TFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724D91FD2E87400C65204 /* TFWebViewController.m */; };
+		790724E91FD2F81300C65204 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790724DE1FD2F81300C65204 /* UMSocialNetwork.framework */; };
+		790724EA1FD2F81300C65204 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 790724DF1FD2F81300C65204 /* UMSocialSDKPromptResources.bundle */; };
+		790724EB1FD2F81300C65204 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790724E01FD2F81300C65204 /* UMSocialCore.framework */; };
+		790724EC1FD2F81400C65204 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 790724E41FD2F81300C65204 /* libSocialWeChat.a */; };
+		790724ED1FD2F81400C65204 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 790724E81FD2F81300C65204 /* libSocialQQ.a */; };
+		790724F51FD2F85700C65204 /* TFShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724F01FD2F85700C65204 /* TFShareManager.m */; };
+		790724F61FD2F85700C65204 /* TFShareManager+TFShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724F11FD2F85700C65204 /* TFShareManager+TFShareView.m */; };
+		790724F71FD2F85700C65204 /* TFShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724F31FD2F85700C65204 /* TFShareButton.m */; };
+		790724FD1FD2F95200C65204 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724F91FD2F95200C65204 /* MBProgressHUD.m */; };
+		790724FE1FD2F95200C65204 /* TFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 790724FA1FD2F95200C65204 /* TFProgressHUD.m */; };
+		790725021FD2FB2E00C65204 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 790725011FD2FB2E00C65204 /* libsqlite3.tbd */; };
+		7916BC631FD581E900E92FB9 /* TFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC621FD581E900E92FB9 /* TFSearchViewController.m */; };
+		7916BC661FD5824900E92FB9 /* TFSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC651FD5824900E92FB9 /* TFSearchModel.m */; };
+		7916BC721FD5828C00E92FB9 /* TFHotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7916BC671FD5828A00E92FB9 /* TFHotCollectionViewCell.xib */; };
+		7916BC731FD5828C00E92FB9 /* TFSearchRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC681FD5828A00E92FB9 /* TFSearchRecordCell.m */; };
+		7916BC741FD5828C00E92FB9 /* TFHotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC6A1FD5828A00E92FB9 /* TFHotCollectionViewCell.m */; };
+		7916BC751FD5828C00E92FB9 /* TFSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC6C1FD5828B00E92FB9 /* TFSearchTextField.m */; };
+		7916BC761FD5828C00E92FB9 /* TFSearchSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC6D1FD5828B00E92FB9 /* TFSearchSectionHeader.m */; };
+		7916BC771FD5828C00E92FB9 /* TFHotSearchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC6F1FD5828C00E92FB9 /* TFHotSearchViewCell.m */; };
+		7916BC791FD5881B00E92FB9 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 7916BC781FD5881B00E92FB9 /* about.html */; };
+		7916BC7E1FD58A4900E92FB9 /* TFNormalCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC7B1FD58A4900E92FB9 /* TFNormalCellModel.m */; };
+		7916BC7F1FD58A4900E92FB9 /* TFPersonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC7C1FD58A4900E92FB9 /* TFPersonGroup.m */; };
+		7916BC821FD58A6800E92FB9 /* TFNormalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC801FD58A6800E92FB9 /* TFNormalViewCell.m */; };
+		7916BC851FD58A7800E92FB9 /* TFClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC831FD58A7800E92FB9 /* TFClearCacheCell.m */; };
+		7916BC881FD58B5B00E92FB9 /* NSString+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916BC871FD58B5B00E92FB9 /* NSString+TFExtension.m */; };
+		79351FD81FCC58D100D6A83F /* TFSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79351FD71FCC58D100D6A83F /* TFSelectionViewController.m */; };
+		79351FE11FCC5E1900D6A83F /* TFMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79351FDF1FCC5E1900D6A83F /* TFMenuViewCell.m */; };
+		79351FE21FCC5E1900D6A83F /* TFMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79351FE01FCC5E1900D6A83F /* TFMenuViewCell.xib */; };
 		7942004C1F998462009186FC /* UIButton+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7942004B1F998462009186FC /* UIButton+TFExtension.m */; };
 		794200511F999D6E009186FC /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7942004E1F999D6E009186FC /* UIView+TFExtension.m */; };
 		794200521F999D6E009186FC /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 794200501F999D6E009186FC /* UIBarButtonItem+TFExtension.m */; };
@@ -15,21 +75,23 @@
 		794D09501F98A4C300925956 /* TFBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D094B1F98A4C300925956 /* TFBannerView.m */; };
 		794D09511F98A4C300925956 /* TFBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D094D1F98A4C300925956 /* TFBannerViewCell.m */; };
 		794D09521F98A4C300925956 /* TFBannerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794D094E1F98A4C300925956 /* TFBannerViewCell.xib */; };
-		794D09551F98A69200925956 /* TFSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D09541F98A69200925956 /* TFSlideMenu.m */; };
 		79518C401F958F8100E7F91E /* TFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C3F1F958F8100E7F91E /* TFNavigationController.m */; };
 		79518C431F9595D700E7F91E /* TFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C421F9595D700E7F91E /* TFHomeViewController.m */; };
 		79518C461F9595F100E7F91E /* TFCouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C451F9595F100E7F91E /* TFCouponsViewController.m */; };
 		79518C491F95960E00E7F91E /* TFSpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C481F95960E00E7F91E /* TFSpecialViewController.m */; };
 		79518C4C1F95961F00E7F91E /* TFMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C4B1F95961F00E7F91E /* TFMineViewController.m */; };
 		79518C671F95F07000E7F91E /* TFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518C661F95F07000E7F91E /* TFNetworkTools.m */; };
+		7963A9631FC6A319006F38C0 /* TFSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963A9621FC6A319006F38C0 /* TFSegmentConfig.m */; };
+		7963A96A1FC6A64D006F38C0 /* TFSegmentLeftRightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963A9691FC6A64D006F38C0 /* TFSegmentLeftRightBtn.m */; };
+		7963A96D1FC6A745006F38C0 /* TFSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963A96C1FC6A745006F38C0 /* TFSegmentBar.m */; };
+		7963A9701FC6B258006F38C0 /* TFMenueBarShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963A96F1FC6B258006F38C0 /* TFMenueBarShowController.m */; };
+		7963A9731FC6C32C006F38C0 /* TFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7963A9721FC6C32C006F38C0 /* TFCategory.m */; };
 		799367391F949F59001A2E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367381F949F59001A2E1A /* AppDelegate.m */; };
 		799367411F949F59001A2E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799367401F949F59001A2E1A /* Assets.xcassets */; };
 		799367471F949F59001A2E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367461F949F59001A2E1A /* main.m */; };
 		799367511F949F5A001A2E1A /* VeryCheapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367501F949F5A001A2E1A /* VeryCheapTests.m */; };
 		7993675C1F949F5A001A2E1A /* VeryCheapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7993675B1F949F5A001A2E1A /* VeryCheapUITests.m */; };
 		799367D51F94A7A7001A2E1A /* TFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799367D41F94A7A7001A2E1A /* TFTabBarController.m */; };
-		79EDF5351FA6CBE400959EBE /* TFCategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */; };
-		79EDF5391FA6D3D600959EBE /* TFSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */; };
 		79EDF53D1FA6EF3C00959EBE /* TFHomeListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */; };
 		79EDF53E1FA6EF3C00959EBE /* TFHomeListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */; };
 		B4F7A0DFCED6144E57B0F41B /* libPods-VeryCheap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */; };
@@ -56,6 +118,116 @@
 		113EC30A78A8EF94157179B2 /* Pods-VeryCheap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryCheap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap.debug.xcconfig"; sourceTree = "<group>"; };
 		536D05F5AD14A4217A69230E /* Pods-VeryCheap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryCheap.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeryCheap/Pods-VeryCheap.release.xcconfig"; sourceTree = "<group>"; };
 		69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VeryCheap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790724631FCE472200C65204 /* NSString+TFSegmentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TFSegmentProtocol.h"; sourceTree = "<group>"; };
+		790724641FCE472200C65204 /* NSString+TFSegmentProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFSegmentProtocol.m"; sourceTree = "<group>"; };
+		790724651FCE472200C65204 /* TFSegmentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSegmentProtocol.h; sourceTree = "<group>"; };
+		790724671FCEB7C200C65204 /* TFSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSelection.h; sourceTree = "<group>"; };
+		790724681FCEB7C200C65204 /* TFSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSelection.m; sourceTree = "<group>"; };
+		7907246A1FCED90600C65204 /* TFComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFComment.h; sourceTree = "<group>"; };
+		7907246B1FCED90600C65204 /* TFComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFComment.m; sourceTree = "<group>"; };
+		7907246D1FCED92000C65204 /* TFCommentViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCommentViewCell.h; sourceTree = "<group>"; };
+		7907246E1FCED92000C65204 /* TFCommentViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCommentViewCell.m; sourceTree = "<group>"; };
+		7907246F1FCED92000C65204 /* TFCommentViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFCommentViewCell.xib; sourceTree = "<group>"; };
+		790724721FCEF89600C65204 /* TFCategoryViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCategoryViewCell.h; sourceTree = "<group>"; };
+		790724731FCEF89600C65204 /* TFCategoryViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCategoryViewCell.m; sourceTree = "<group>"; };
+		790724741FCEF89600C65204 /* TFCategoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFCategoryViewCell.xib; sourceTree = "<group>"; };
+		790724771FCF075C00C65204 /* TFSortCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSortCommentViewController.h; sourceTree = "<group>"; };
+		790724781FCF075C00C65204 /* TFSortCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSortCommentViewController.m; sourceTree = "<group>"; };
+		7907247A1FCF109E00C65204 /* TFSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSelectView.h; sourceTree = "<group>"; };
+		7907247B1FCF109E00C65204 /* TFSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSelectView.m; sourceTree = "<group>"; };
+		7907247D1FCFC31D00C65204 /* TFRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFRefreshHeader.h; sourceTree = "<group>"; };
+		7907247E1FCFC31D00C65204 /* TFRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFRefreshHeader.m; sourceTree = "<group>"; };
+		790724801FCFC37C00C65204 /* TFRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFRefreshFooter.h; sourceTree = "<group>"; };
+		790724811FCFC37C00C65204 /* TFRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFRefreshFooter.m; sourceTree = "<group>"; };
+		7907248B1FCFD99100C65204 /* TFBasicInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFBasicInformationCell.m; sourceTree = "<group>"; };
+		7907248C1FCFD99100C65204 /* TFBasicInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBasicInformationCell.h; sourceTree = "<group>"; };
+		790724901FCFFD6600C65204 /* TFDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetailsViewController.h; sourceTree = "<group>"; };
+		790724911FCFFD6600C65204 /* TFDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetailsViewController.m; sourceTree = "<group>"; };
+		790724951FD01B2200C65204 /* TFBasicInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFBasicInformationCell.xib; sourceTree = "<group>"; };
+		790724981FD0357D00C65204 /* TFCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCustomNavigationBar.h; sourceTree = "<group>"; };
+		790724991FD0357D00C65204 /* TFCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCustomNavigationBar.m; sourceTree = "<group>"; };
+		7907249B1FD037B500C65204 /* TFNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNavigationBar.h; sourceTree = "<group>"; };
+		7907249C1FD037B500C65204 /* TFNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavigationBar.m; sourceTree = "<group>"; };
+		790724A01FD14FB100C65204 /* TFDetailsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetailsViewCell.h; sourceTree = "<group>"; };
+		790724A11FD14FB100C65204 /* TFDetailsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetailsViewCell.m; sourceTree = "<group>"; };
+		790724A21FD14FB100C65204 /* TFDetailsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFDetailsViewCell.xib; sourceTree = "<group>"; };
+		790724B21FD1623A00C65204 /* TFWebImageAutoSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFWebImageAutoSize.h; sourceTree = "<group>"; };
+		790724B31FD1623A00C65204 /* TFWebImageAutoSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFWebImageAutoSize.m; sourceTree = "<group>"; };
+		790724B51FD1626600C65204 /* UITableView+TFWebImageAutoSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TFWebImageAutoSize.h"; sourceTree = "<group>"; };
+		790724B61FD1626600C65204 /* UITableView+TFWebImageAutoSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TFWebImageAutoSize.m"; sourceTree = "<group>"; };
+		790724B81FD1628D00C65204 /* NSString+TFCacheFileName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TFCacheFileName.h"; sourceTree = "<group>"; };
+		790724B91FD1628D00C65204 /* NSString+TFCacheFileName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFCacheFileName.m"; sourceTree = "<group>"; };
+		790724BB1FD162A600C65204 /* TFWebImageAutoSizeCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFWebImageAutoSizeCache.h; sourceTree = "<group>"; };
+		790724BC1FD162A600C65204 /* TFWebImageAutoSizeCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFWebImageAutoSizeCache.m; sourceTree = "<group>"; };
+		790724BE1FD1880400C65204 /* TFDetailBottomTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetailBottomTool.h; sourceTree = "<group>"; };
+		790724BF1FD1880400C65204 /* TFDetailBottomTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetailBottomTool.m; sourceTree = "<group>"; };
+		790724C11FD1881000C65204 /* TFDetailBottomTool.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFDetailBottomTool.xib; sourceTree = "<group>"; };
+		790724C31FD18A9B00C65204 /* TFDetailBottomBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetailBottomBtn.h; sourceTree = "<group>"; };
+		790724C41FD18A9B00C65204 /* TFDetailBottomBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetailBottomBtn.m; sourceTree = "<group>"; };
+		790724C61FD2AF7300C65204 /* TFDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDetails.h; sourceTree = "<group>"; };
+		790724C71FD2AF7300C65204 /* TFDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDetails.m; sourceTree = "<group>"; };
+		790724C91FD2D13C00C65204 /* TFCoupons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCoupons.h; sourceTree = "<group>"; };
+		790724CA1FD2D13C00C65204 /* TFCoupons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCoupons.m; sourceTree = "<group>"; };
+		790724CC1FD2D16000C65204 /* TFRightReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFRightReusableView.h; sourceTree = "<group>"; };
+		790724CD1FD2D16000C65204 /* TFRightReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFRightReusableView.m; sourceTree = "<group>"; };
+		790724CF1FD2D17E00C65204 /* TFRightCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFRightCollectionViewCell.h; sourceTree = "<group>"; };
+		790724D01FD2D17E00C65204 /* TFRightCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFRightCollectionViewCell.m; sourceTree = "<group>"; };
+		790724D21FD2D19300C65204 /* TFLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLeftTableViewCell.h; sourceTree = "<group>"; };
+		790724D31FD2D19300C65204 /* TFLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFLeftTableViewCell.m; sourceTree = "<group>"; };
+		790724D51FD2E10E00C65204 /* TFCouponsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCouponsListController.h; sourceTree = "<group>"; };
+		790724D61FD2E10E00C65204 /* TFCouponsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCouponsListController.m; sourceTree = "<group>"; };
+		790724D81FD2E87400C65204 /* TFWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFWebViewController.h; sourceTree = "<group>"; };
+		790724D91FD2E87400C65204 /* TFWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFWebViewController.m; sourceTree = "<group>"; };
+		790724DE1FD2F81300C65204 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		790724DF1FD2F81300C65204 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		790724E01FD2F81300C65204 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		790724E41FD2F81300C65204 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		790724E51FD2F81300C65204 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		790724E71FD2F81300C65204 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		790724E81FD2F81300C65204 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		790724EF1FD2F85700C65204 /* TFShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFShareButton.h; sourceTree = "<group>"; };
+		790724F01FD2F85700C65204 /* TFShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFShareManager.m; sourceTree = "<group>"; };
+		790724F11FD2F85700C65204 /* TFShareManager+TFShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TFShareManager+TFShareView.m"; sourceTree = "<group>"; };
+		790724F21FD2F85700C65204 /* TFShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFShareManager.h; sourceTree = "<group>"; };
+		790724F31FD2F85700C65204 /* TFShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFShareButton.m; sourceTree = "<group>"; };
+		790724F41FD2F85700C65204 /* TFShareManager+TFShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFShareManager+TFShareView.h"; sourceTree = "<group>"; };
+		790724F91FD2F95200C65204 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		790724FA1FD2F95200C65204 /* TFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFProgressHUD.m; sourceTree = "<group>"; };
+		790724FB1FD2F95200C65204 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		790724FC1FD2F95200C65204 /* TFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFProgressHUD.h; sourceTree = "<group>"; };
+		790724FF1FD2FAEE00C65204 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		790725011FD2FB2E00C65204 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7916BC611FD581E900E92FB9 /* TFSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSearchViewController.h; sourceTree = "<group>"; };
+		7916BC621FD581E900E92FB9 /* TFSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSearchViewController.m; sourceTree = "<group>"; };
+		7916BC641FD5824900E92FB9 /* TFSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSearchModel.h; sourceTree = "<group>"; };
+		7916BC651FD5824900E92FB9 /* TFSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSearchModel.m; sourceTree = "<group>"; };
+		7916BC671FD5828A00E92FB9 /* TFHotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFHotCollectionViewCell.xib; sourceTree = "<group>"; };
+		7916BC681FD5828A00E92FB9 /* TFSearchRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSearchRecordCell.m; sourceTree = "<group>"; };
+		7916BC691FD5828A00E92FB9 /* TFSearchSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSearchSectionHeader.h; sourceTree = "<group>"; };
+		7916BC6A1FD5828A00E92FB9 /* TFHotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHotCollectionViewCell.m; sourceTree = "<group>"; };
+		7916BC6B1FD5828A00E92FB9 /* TFSearchRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSearchRecordCell.h; sourceTree = "<group>"; };
+		7916BC6C1FD5828B00E92FB9 /* TFSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSearchTextField.m; sourceTree = "<group>"; };
+		7916BC6D1FD5828B00E92FB9 /* TFSearchSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSearchSectionHeader.m; sourceTree = "<group>"; };
+		7916BC6E1FD5828C00E92FB9 /* TFHotSearchViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHotSearchViewCell.h; sourceTree = "<group>"; };
+		7916BC6F1FD5828C00E92FB9 /* TFHotSearchViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHotSearchViewCell.m; sourceTree = "<group>"; };
+		7916BC701FD5828C00E92FB9 /* TFHotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHotCollectionViewCell.h; sourceTree = "<group>"; };
+		7916BC711FD5828C00E92FB9 /* TFSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSearchTextField.h; sourceTree = "<group>"; };
+		7916BC781FD5881B00E92FB9 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		7916BC7A1FD58A4800E92FB9 /* TFNormalCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNormalCellModel.h; sourceTree = "<group>"; };
+		7916BC7B1FD58A4900E92FB9 /* TFNormalCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNormalCellModel.m; sourceTree = "<group>"; };
+		7916BC7C1FD58A4900E92FB9 /* TFPersonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPersonGroup.m; sourceTree = "<group>"; };
+		7916BC7D1FD58A4900E92FB9 /* TFPersonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPersonGroup.h; sourceTree = "<group>"; };
+		7916BC801FD58A6800E92FB9 /* TFNormalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNormalViewCell.m; sourceTree = "<group>"; };
+		7916BC811FD58A6800E92FB9 /* TFNormalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNormalViewCell.h; sourceTree = "<group>"; };
+		7916BC831FD58A7800E92FB9 /* TFClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFClearCacheCell.m; sourceTree = "<group>"; };
+		7916BC841FD58A7800E92FB9 /* TFClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFClearCacheCell.h; sourceTree = "<group>"; };
+		7916BC861FD58B5B00E92FB9 /* NSString+TFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TFExtension.h"; sourceTree = "<group>"; };
+		7916BC871FD58B5B00E92FB9 /* NSString+TFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFExtension.m"; sourceTree = "<group>"; };
+		79351FD61FCC58D100D6A83F /* TFSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSelectionViewController.h; sourceTree = "<group>"; };
+		79351FD71FCC58D100D6A83F /* TFSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSelectionViewController.m; sourceTree = "<group>"; };
+		79351FDE1FCC5E1900D6A83F /* TFMenuViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMenuViewCell.h; sourceTree = "<group>"; };
+		79351FDF1FCC5E1900D6A83F /* TFMenuViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFMenuViewCell.m; sourceTree = "<group>"; };
+		79351FE01FCC5E1900D6A83F /* TFMenuViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFMenuViewCell.xib; sourceTree = "<group>"; };
 		7942004A1F998462009186FC /* UIButton+TFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TFExtension.h"; sourceTree = "<group>"; };
 		7942004B1F998462009186FC /* UIButton+TFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TFExtension.m"; sourceTree = "<group>"; };
 		7942004D1F999D6E009186FC /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
@@ -71,8 +243,6 @@
 		794D094C1F98A4C300925956 /* TFBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBannerViewCell.h; sourceTree = "<group>"; };
 		794D094D1F98A4C300925956 /* TFBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFBannerViewCell.m; sourceTree = "<group>"; };
 		794D094E1F98A4C300925956 /* TFBannerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFBannerViewCell.xib; sourceTree = "<group>"; };
-		794D09531F98A69200925956 /* TFSlideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSlideMenu.h; sourceTree = "<group>"; };
-		794D09541F98A69200925956 /* TFSlideMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSlideMenu.m; sourceTree = "<group>"; };
 		79518C3E1F958F8100E7F91E /* TFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNavigationController.h; sourceTree = "<group>"; };
 		79518C3F1F958F8100E7F91E /* TFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavigationController.m; sourceTree = "<group>"; };
 		79518C411F9595D700E7F91E /* TFHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFHomeViewController.h; sourceTree = "<group>"; };
@@ -85,6 +255,16 @@
 		79518C4B1F95961F00E7F91E /* TFMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFMineViewController.m; sourceTree = "<group>"; };
 		79518C651F95F07000E7F91E /* TFNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNetworkTools.h; sourceTree = "<group>"; };
 		79518C661F95F07000E7F91E /* TFNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNetworkTools.m; sourceTree = "<group>"; };
+		7963A9611FC6A319006F38C0 /* TFSegmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSegmentConfig.h; sourceTree = "<group>"; };
+		7963A9621FC6A319006F38C0 /* TFSegmentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSegmentConfig.m; sourceTree = "<group>"; };
+		7963A9681FC6A64D006F38C0 /* TFSegmentLeftRightBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSegmentLeftRightBtn.h; sourceTree = "<group>"; };
+		7963A9691FC6A64D006F38C0 /* TFSegmentLeftRightBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSegmentLeftRightBtn.m; sourceTree = "<group>"; };
+		7963A96B1FC6A745006F38C0 /* TFSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSegmentBar.h; sourceTree = "<group>"; };
+		7963A96C1FC6A745006F38C0 /* TFSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSegmentBar.m; sourceTree = "<group>"; };
+		7963A96E1FC6B258006F38C0 /* TFMenueBarShowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMenueBarShowController.h; sourceTree = "<group>"; };
+		7963A96F1FC6B258006F38C0 /* TFMenueBarShowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFMenueBarShowController.m; sourceTree = "<group>"; };
+		7963A9711FC6C32C006F38C0 /* TFCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCategory.h; sourceTree = "<group>"; };
+		7963A9721FC6C32C006F38C0 /* TFCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCategory.m; sourceTree = "<group>"; };
 		799367341F949F59001A2E1A /* VeryCheap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryCheap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		799367371F949F59001A2E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		799367381F949F59001A2E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,10 +281,6 @@
 		799367CC1F94A58A001A2E1A /* TFMacroPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFMacroPrefix.pch; sourceTree = "<group>"; };
 		799367D31F94A7A7001A2E1A /* TFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTabBarController.h; sourceTree = "<group>"; };
 		799367D41F94A7A7001A2E1A /* TFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTabBarController.m; sourceTree = "<group>"; };
-		79EDF5321FA6CBE400959EBE /* TFCategoryViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFCategoryViewCell.h; sourceTree = "<group>"; };
-		79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFCategoryViewCell.m; sourceTree = "<group>"; };
-		79EDF5371FA6D3D600959EBE /* TFSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSelectionViewController.h; sourceTree = "<group>"; };
-		79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSelectionViewController.m; sourceTree = "<group>"; };
 		79EDF53A1FA6EF3C00959EBE /* TFHomeListViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFHomeListViewCell.h; sourceTree = "<group>"; };
 		79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFHomeListViewCell.m; sourceTree = "<group>"; };
 		79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFHomeListViewCell.xib; sourceTree = "<group>"; };
@@ -115,6 +291,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790725021FD2FB2E00C65204 /* libsqlite3.tbd in Frameworks */,
+				790724ED1FD2F81400C65204 /* libSocialQQ.a in Frameworks */,
+				790724E91FD2F81300C65204 /* UMSocialNetwork.framework in Frameworks */,
+				790724EB1FD2F81300C65204 /* UMSocialCore.framework in Frameworks */,
+				790724EC1FD2F81400C65204 /* libSocialWeChat.a in Frameworks */,
 				B4F7A0DFCED6144E57B0F41B /* libPods-VeryCheap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +317,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790724971FD0354700C65204 /* TFNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				790724981FD0357D00C65204 /* TFCustomNavigationBar.h */,
+				790724991FD0357D00C65204 /* TFCustomNavigationBar.m */,
+				7907249B1FD037B500C65204 /* TFNavigationBar.h */,
+				7907249C1FD037B500C65204 /* TFNavigationBar.m */,
+			);
+			path = TFNavigationBar;
+			sourceTree = "<group>";
+		};
+		790724A51FD153E900C65204 /* TFImageAutoSize */ = {
+			isa = PBXGroup;
+			children = (
+				790724B21FD1623A00C65204 /* TFWebImageAutoSize.h */,
+				790724B31FD1623A00C65204 /* TFWebImageAutoSize.m */,
+				790724B51FD1626600C65204 /* UITableView+TFWebImageAutoSize.h */,
+				790724B61FD1626600C65204 /* UITableView+TFWebImageAutoSize.m */,
+				790724B81FD1628D00C65204 /* NSString+TFCacheFileName.h */,
+				790724B91FD1628D00C65204 /* NSString+TFCacheFileName.m */,
+				790724BB1FD162A600C65204 /* TFWebImageAutoSizeCache.h */,
+				790724BC1FD162A600C65204 /* TFWebImageAutoSizeCache.m */,
+			);
+			path = TFImageAutoSize;
+			sourceTree = "<group>";
+		};
+		790724DB1FD2F81300C65204 /* 友盟分享 */ = {
+			isa = PBXGroup;
+			children = (
+				790724DC1FD2F81300C65204 /* UMSocial */,
+			);
+			path = "友盟分享";
+			sourceTree = "<group>";
+		};
+		790724DC1FD2F81300C65204 /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				790724DD1FD2F81300C65204 /* UMSocialSDK */,
+				790724E11FD2F81300C65204 /* SocialLibraries */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		790724DD1FD2F81300C65204 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				790724DE1FD2F81300C65204 /* UMSocialNetwork.framework */,
+				790724DF1FD2F81300C65204 /* UMSocialSDKPromptResources.bundle */,
+				790724E01FD2F81300C65204 /* UMSocialCore.framework */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		790724E11FD2F81300C65204 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				790724E31FD2F81300C65204 /* WeChat */,
+				790724E61FD2F81300C65204 /* QQ */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		790724E31FD2F81300C65204 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				790724E41FD2F81300C65204 /* libSocialWeChat.a */,
+				790724E51FD2F81300C65204 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		790724E61FD2F81300C65204 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				790724E71FD2F81300C65204 /* UMSocialQQHandler.h */,
+				790724E81FD2F81300C65204 /* libSocialQQ.a */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		790724EE1FD2F85700C65204 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				790724EF1FD2F85700C65204 /* TFShareButton.h */,
+				790724F31FD2F85700C65204 /* TFShareButton.m */,
+				790724F21FD2F85700C65204 /* TFShareManager.h */,
+				790724F01FD2F85700C65204 /* TFShareManager.m */,
+				790724F11FD2F85700C65204 /* TFShareManager+TFShareView.m */,
+				790724F41FD2F85700C65204 /* TFShareManager+TFShareView.h */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		790724F81FD2F95200C65204 /* TFProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				790724F91FD2F95200C65204 /* MBProgressHUD.m */,
+				790724FA1FD2F95200C65204 /* TFProgressHUD.m */,
+				790724FB1FD2F95200C65204 /* MBProgressHUD.h */,
+				790724FC1FD2F95200C65204 /* TFProgressHUD.h */,
+			);
+			path = TFProgressHUD;
+			sourceTree = "<group>";
+		};
 		792E90901F98A17F000E89FF /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +436,8 @@
 			children = (
 				794200561F99EAC3009186FC /* TFCommentViewController.h */,
 				794200571F99EAC3009186FC /* TFCommentViewController.m */,
+				790724771FCF075C00C65204 /* TFSortCommentViewController.h */,
+				790724781FCF075C00C65204 /* TFSortCommentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +445,8 @@
 		792E90921F98A17F000E89FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7907246A1FCED90600C65204 /* TFComment.h */,
+				7907246B1FCED90600C65204 /* TFComment.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,8 +454,11 @@
 		792E90931F98A17F000E89FF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				794D09531F98A69200925956 /* TFSlideMenu.h */,
-				794D09541F98A69200925956 /* TFSlideMenu.m */,
+				7907246D1FCED92000C65204 /* TFCommentViewCell.h */,
+				7907246E1FCED92000C65204 /* TFCommentViewCell.m */,
+				7907246F1FCED92000C65204 /* TFCommentViewCell.xib */,
+				7907247A1FCF109E00C65204 /* TFSelectView.h */,
+				7907247B1FCF109E00C65204 /* TFSelectView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +582,8 @@
 			children = (
 				79518C441F9595F100E7F91E /* TFCouponsViewController.h */,
 				79518C451F9595F100E7F91E /* TFCouponsViewController.m */,
+				790724D51FD2E10E00C65204 /* TFCouponsListController.h */,
+				790724D61FD2E10E00C65204 /* TFCouponsListController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +591,8 @@
 		799367A71F94A58A001A2E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				790724C91FD2D13C00C65204 /* TFCoupons.h */,
+				790724CA1FD2D13C00C65204 /* TFCoupons.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +600,12 @@
 		799367A81F94A58A001A2E1A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				790724D21FD2D19300C65204 /* TFLeftTableViewCell.h */,
+				790724D31FD2D19300C65204 /* TFLeftTableViewCell.m */,
+				790724CC1FD2D16000C65204 /* TFRightReusableView.h */,
+				790724CD1FD2D16000C65204 /* TFRightReusableView.m */,
+				790724CF1FD2D17E00C65204 /* TFRightCollectionViewCell.h */,
+				790724D01FD2D17E00C65204 /* TFRightCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +623,10 @@
 		799367AA1F94A58A001A2E1A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				790724901FCFFD6600C65204 /* TFDetailsViewController.h */,
+				790724911FCFFD6600C65204 /* TFDetailsViewController.m */,
+				790724D81FD2E87400C65204 /* TFWebViewController.h */,
+				790724D91FD2E87400C65204 /* TFWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -328,6 +634,8 @@
 		799367AB1F94A58A001A2E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				790724C61FD2AF7300C65204 /* TFDetails.h */,
+				790724C71FD2AF7300C65204 /* TFDetails.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +643,17 @@
 		799367AC1F94A58A001A2E1A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7907248C1FCFD99100C65204 /* TFBasicInformationCell.h */,
+				7907248B1FCFD99100C65204 /* TFBasicInformationCell.m */,
+				790724951FD01B2200C65204 /* TFBasicInformationCell.xib */,
+				790724A01FD14FB100C65204 /* TFDetailsViewCell.h */,
+				790724A11FD14FB100C65204 /* TFDetailsViewCell.m */,
+				790724A21FD14FB100C65204 /* TFDetailsViewCell.xib */,
+				790724BE1FD1880400C65204 /* TFDetailBottomTool.h */,
+				790724BF1FD1880400C65204 /* TFDetailBottomTool.m */,
+				790724C11FD1881000C65204 /* TFDetailBottomTool.xib */,
+				790724C31FD18A9B00C65204 /* TFDetailBottomBtn.h */,
+				790724C41FD18A9B00C65204 /* TFDetailBottomBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -354,8 +673,10 @@
 			children = (
 				79518C411F9595D700E7F91E /* TFHomeViewController.h */,
 				79518C421F9595D700E7F91E /* TFHomeViewController.m */,
-				79EDF5371FA6D3D600959EBE /* TFSelectionViewController.h */,
-				79EDF5381FA6D3D600959EBE /* TFSelectionViewController.m */,
+				7963A96E1FC6B258006F38C0 /* TFMenueBarShowController.h */,
+				7963A96F1FC6B258006F38C0 /* TFMenueBarShowController.m */,
+				79351FD61FCC58D100D6A83F /* TFSelectionViewController.h */,
+				79351FD71FCC58D100D6A83F /* TFSelectionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -363,6 +684,15 @@
 		799367B11F94A58A001A2E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				790724631FCE472200C65204 /* NSString+TFSegmentProtocol.h */,
+				790724641FCE472200C65204 /* NSString+TFSegmentProtocol.m */,
+				790724651FCE472200C65204 /* TFSegmentProtocol.h */,
+				7963A9611FC6A319006F38C0 /* TFSegmentConfig.h */,
+				7963A9621FC6A319006F38C0 /* TFSegmentConfig.m */,
+				7963A9711FC6C32C006F38C0 /* TFCategory.h */,
+				7963A9721FC6C32C006F38C0 /* TFCategory.m */,
+				790724671FCEB7C200C65204 /* TFSelection.h */,
+				790724681FCEB7C200C65204 /* TFSelection.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,11 +700,19 @@
 		799367B21F94A58A001A2E1A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				79EDF5321FA6CBE400959EBE /* TFCategoryViewCell.h */,
-				79EDF5331FA6CBE400959EBE /* TFCategoryViewCell.m */,
 				79EDF53A1FA6EF3C00959EBE /* TFHomeListViewCell.h */,
 				79EDF53B1FA6EF3C00959EBE /* TFHomeListViewCell.m */,
 				79EDF53C1FA6EF3C00959EBE /* TFHomeListViewCell.xib */,
+				790724721FCEF89600C65204 /* TFCategoryViewCell.h */,
+				790724731FCEF89600C65204 /* TFCategoryViewCell.m */,
+				790724741FCEF89600C65204 /* TFCategoryViewCell.xib */,
+				7963A9681FC6A64D006F38C0 /* TFSegmentLeftRightBtn.h */,
+				7963A9691FC6A64D006F38C0 /* TFSegmentLeftRightBtn.m */,
+				7963A96B1FC6A745006F38C0 /* TFSegmentBar.h */,
+				7963A96C1FC6A745006F38C0 /* TFSegmentBar.m */,
+				79351FDE1FCC5E1900D6A83F /* TFMenuViewCell.h */,
+				79351FDF1FCC5E1900D6A83F /* TFMenuViewCell.m */,
+				79351FE01FCC5E1900D6A83F /* TFMenuViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -439,6 +777,10 @@
 		799367BF1F94A58A001A2E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7916BC7A1FD58A4800E92FB9 /* TFNormalCellModel.h */,
+				7916BC7B1FD58A4900E92FB9 /* TFNormalCellModel.m */,
+				7916BC7D1FD58A4900E92FB9 /* TFPersonGroup.h */,
+				7916BC7C1FD58A4900E92FB9 /* TFPersonGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -446,6 +788,10 @@
 		799367C01F94A58A001A2E1A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7916BC841FD58A7800E92FB9 /* TFClearCacheCell.h */,
+				7916BC831FD58A7800E92FB9 /* TFClearCacheCell.m */,
+				7916BC811FD58A6800E92FB9 /* TFNormalViewCell.h */,
+				7916BC801FD58A6800E92FB9 /* TFNormalViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -460,6 +806,11 @@
 		799367C21F94A58A001A2E1A /* Other(其他) */ = {
 			isa = PBXGroup;
 			children = (
+				790724F81FD2F95200C65204 /* TFProgressHUD */,
+				790724EE1FD2F85700C65204 /* Share */,
+				790724DB1FD2F81300C65204 /* 友盟分享 */,
+				790724A51FD153E900C65204 /* TFImageAutoSize */,
+				790724971FD0354700C65204 /* TFNavigationBar */,
 				799367C31F94A58A001A2E1A /* Account */,
 				799367C41F94A58A001A2E1A /* Category */,
 				799367C91F94A58A001A2E1A /* NetWorkTool */,
@@ -484,6 +835,8 @@
 				7942004E1F999D6E009186FC /* UIView+TFExtension.m */,
 				7942004A1F998462009186FC /* UIButton+TFExtension.h */,
 				7942004B1F998462009186FC /* UIButton+TFExtension.m */,
+				7916BC861FD58B5B00E92FB9 /* NSString+TFExtension.h */,
+				7916BC871FD58B5B00E92FB9 /* NSString+TFExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -493,6 +846,10 @@
 			children = (
 				79518C651F95F07000E7F91E /* TFNetworkTools.h */,
 				79518C661F95F07000E7F91E /* TFNetworkTools.m */,
+				7907247D1FCFC31D00C65204 /* TFRefreshHeader.h */,
+				7907247E1FCFC31D00C65204 /* TFRefreshHeader.m */,
+				790724801FCFC37C00C65204 /* TFRefreshFooter.h */,
+				790724811FCFC37C00C65204 /* TFRefreshFooter.m */,
 			);
 			path = NetWorkTool;
 			sourceTree = "<group>";
@@ -521,6 +878,8 @@
 			children = (
 				79518C471F95960E00E7F91E /* TFSpecialViewController.h */,
 				79518C481F95960E00E7F91E /* TFSpecialViewController.m */,
+				7916BC611FD581E900E92FB9 /* TFSearchViewController.h */,
+				7916BC621FD581E900E92FB9 /* TFSearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -528,6 +887,8 @@
 		799367D11F94A58A001A2E1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7916BC641FD5824900E92FB9 /* TFSearchModel.h */,
+				7916BC651FD5824900E92FB9 /* TFSearchModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -535,6 +896,17 @@
 		799367D21F94A58A001A2E1A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7916BC701FD5828C00E92FB9 /* TFHotCollectionViewCell.h */,
+				7916BC6A1FD5828A00E92FB9 /* TFHotCollectionViewCell.m */,
+				7916BC671FD5828A00E92FB9 /* TFHotCollectionViewCell.xib */,
+				7916BC6E1FD5828C00E92FB9 /* TFHotSearchViewCell.h */,
+				7916BC6F1FD5828C00E92FB9 /* TFHotSearchViewCell.m */,
+				7916BC6B1FD5828A00E92FB9 /* TFSearchRecordCell.h */,
+				7916BC681FD5828A00E92FB9 /* TFSearchRecordCell.m */,
+				7916BC691FD5828A00E92FB9 /* TFSearchSectionHeader.h */,
+				7916BC6D1FD5828B00E92FB9 /* TFSearchSectionHeader.m */,
+				7916BC711FD5828C00E92FB9 /* TFSearchTextField.h */,
+				7916BC6C1FD5828B00E92FB9 /* TFSearchTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -542,6 +914,7 @@
 		799367D61F94A9C6001A2E1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7916BC781FD5881B00E92FB9 /* about.html */,
 				799367401F949F59001A2E1A /* Assets.xcassets */,
 				799367451F949F59001A2E1A /* Info.plist */,
 			);
@@ -552,6 +925,8 @@
 		7DA70A68363AF1E88F023266 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				790725011FD2FB2E00C65204 /* libsqlite3.tbd */,
+				790724FF1FD2FAEE00C65204 /* CoreGraphics.framework */,
 				69FBC9F835FE66055744EB3A /* libPods-VeryCheap.a */,
 			);
 			name = Frameworks;
@@ -676,8 +1051,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7916BC791FD5881B00E92FB9 /* about.html in Resources */,
+				790724711FCED92000C65204 /* TFCommentViewCell.xib in Resources */,
+				790724A41FD14FB100C65204 /* TFDetailsViewCell.xib in Resources */,
+				79351FE21FCC5E1900D6A83F /* TFMenuViewCell.xib in Resources */,
 				794D09521F98A4C300925956 /* TFBannerViewCell.xib in Resources */,
 				79EDF53E1FA6EF3C00959EBE /* TFHomeListViewCell.xib in Resources */,
+				7916BC721FD5828C00E92FB9 /* TFHotCollectionViewCell.xib in Resources */,
+				790724EA1FD2F81300C65204 /* UMSocialSDKPromptResources.bundle in Resources */,
+				790724961FD01B2300C65204 /* TFBasicInformationCell.xib in Resources */,
+				790724C21FD1881000C65204 /* TFDetailBottomTool.xib in Resources */,
+				790724761FCEF89600C65204 /* TFCategoryViewCell.xib in Resources */,
 				799367411F949F59001A2E1A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -758,25 +1142,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				799367D51F94A7A7001A2E1A /* TFTabBarController.m in Sources */,
+				7916BC631FD581E900E92FB9 /* TFSearchViewController.m in Sources */,
 				79518C401F958F8100E7F91E /* TFNavigationController.m in Sources */,
+				7907247C1FCF109E00C65204 /* TFSelectView.m in Sources */,
+				7916BC851FD58A7800E92FB9 /* TFClearCacheCell.m in Sources */,
+				7963A96D1FC6A745006F38C0 /* TFSegmentBar.m in Sources */,
+				790724B41FD1623A00C65204 /* TFWebImageAutoSize.m in Sources */,
+				7907248E1FCFD99100C65204 /* TFBasicInformationCell.m in Sources */,
+				790724C81FD2AF7300C65204 /* TFDetails.m in Sources */,
+				7907246C1FCED90600C65204 /* TFComment.m in Sources */,
 				79518C461F9595F100E7F91E /* TFCouponsViewController.m in Sources */,
+				7963A9631FC6A319006F38C0 /* TFSegmentConfig.m in Sources */,
+				7963A96A1FC6A64D006F38C0 /* TFSegmentLeftRightBtn.m in Sources */,
+				790724F51FD2F85700C65204 /* TFShareManager.m in Sources */,
+				790724A31FD14FB100C65204 /* TFDetailsViewCell.m in Sources */,
 				79518C4C1F95961F00E7F91E /* TFMineViewController.m in Sources */,
+				7916BC661FD5824900E92FB9 /* TFSearchModel.m in Sources */,
+				790724C51FD18A9B00C65204 /* TFDetailBottomBtn.m in Sources */,
+				790724BA1FD1628D00C65204 /* NSString+TFCacheFileName.m in Sources */,
+				790724DA1FD2E87400C65204 /* TFWebViewController.m in Sources */,
 				794D09511F98A4C300925956 /* TFBannerViewCell.m in Sources */,
+				7916BC751FD5828C00E92FB9 /* TFSearchTextField.m in Sources */,
 				79EDF53D1FA6EF3C00959EBE /* TFHomeListViewCell.m in Sources */,
-				794D09551F98A69200925956 /* TFSlideMenu.m in Sources */,
+				790724CE1FD2D16000C65204 /* TFRightReusableView.m in Sources */,
+				790724CB1FD2D13C00C65204 /* TFCoupons.m in Sources */,
+				7907249A1FD0357D00C65204 /* TFCustomNavigationBar.m in Sources */,
+				790724661FCE472300C65204 /* NSString+TFSegmentProtocol.m in Sources */,
+				790724D11FD2D17E00C65204 /* TFRightCollectionViewCell.m in Sources */,
 				799367471F949F59001A2E1A /* main.m in Sources */,
 				79518C491F95960E00E7F91E /* TFSpecialViewController.m in Sources */,
+				7963A9701FC6B258006F38C0 /* TFMenueBarShowController.m in Sources */,
+				790724F71FD2F85700C65204 /* TFShareButton.m in Sources */,
+				790724701FCED92000C65204 /* TFCommentViewCell.m in Sources */,
+				790724D41FD2D19300C65204 /* TFLeftTableViewCell.m in Sources */,
+				790724B71FD1626600C65204 /* UITableView+TFWebImageAutoSize.m in Sources */,
+				7916BC7E1FD58A4900E92FB9 /* TFNormalCellModel.m in Sources */,
 				794200521F999D6E009186FC /* UIBarButtonItem+TFExtension.m in Sources */,
 				794200511F999D6E009186FC /* UIView+TFExtension.m in Sources */,
-				79EDF5351FA6CBE400959EBE /* TFCategoryViewCell.m in Sources */,
 				79518C671F95F07000E7F91E /* TFNetworkTools.m in Sources */,
+				7916BC881FD58B5B00E92FB9 /* NSString+TFExtension.m in Sources */,
+				7916BC771FD5828C00E92FB9 /* TFHotSearchViewCell.m in Sources */,
+				7916BC821FD58A6800E92FB9 /* TFNormalViewCell.m in Sources */,
+				790724FE1FD2F95200C65204 /* TFProgressHUD.m in Sources */,
+				790724D71FD2E10E00C65204 /* TFCouponsListController.m in Sources */,
+				790724BD1FD162A600C65204 /* TFWebImageAutoSizeCache.m in Sources */,
 				794D094F1F98A4C300925956 /* TFBanner.m in Sources */,
+				790724FD1FD2F95200C65204 /* MBProgressHUD.m in Sources */,
 				79518C431F9595D700E7F91E /* TFHomeViewController.m in Sources */,
+				790724931FCFFD6600C65204 /* TFDetailsViewController.m in Sources */,
 				7942004C1F998462009186FC /* UIButton+TFExtension.m in Sources */,
 				799367391F949F59001A2E1A /* AppDelegate.m in Sources */,
+				79351FE11FCC5E1900D6A83F /* TFMenuViewCell.m in Sources */,
+				790724C01FD1880400C65204 /* TFDetailBottomTool.m in Sources */,
+				790724F61FD2F85700C65204 /* TFShareManager+TFShareView.m in Sources */,
 				794D09501F98A4C300925956 /* TFBannerView.m in Sources */,
-				79EDF5391FA6D3D600959EBE /* TFSelectionViewController.m in Sources */,
+				790724821FCFC37C00C65204 /* TFRefreshFooter.m in Sources */,
+				790724791FCF075C00C65204 /* TFSortCommentViewController.m in Sources */,
+				7963A9731FC6C32C006F38C0 /* TFCategory.m in Sources */,
+				790724751FCEF89600C65204 /* TFCategoryViewCell.m in Sources */,
+				7916BC761FD5828C00E92FB9 /* TFSearchSectionHeader.m in Sources */,
+				7916BC7F1FD58A4900E92FB9 /* TFPersonGroup.m in Sources */,
 				794200581F99EAC3009186FC /* TFCommentViewController.m in Sources */,
+				790724691FCEB7C200C65204 /* TFSelection.m in Sources */,
+				7907249D1FD037B500C65204 /* TFNavigationBar.m in Sources */,
+				7916BC741FD5828C00E92FB9 /* TFHotCollectionViewCell.m in Sources */,
+				7916BC731FD5828C00E92FB9 /* TFSearchRecordCell.m in Sources */,
+				7907247F1FCFC31D00C65204 /* TFRefreshHeader.m in Sources */,
+				79351FD81FCC58D100D6A83F /* TFSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,11 +1358,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C56SAX333T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/UMSocialSDK",
+				);
 				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				INFOPLIST_FILE = VeryCheap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xtfei.VeryCheap;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/SocialLibraries/QQ",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haopianyi.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -944,11 +1385,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C56SAX333T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/UMSocialSDK",
+				);
 				GCC_PREFIX_HEADER = "/Users/xietengfei/Desktop/VeryCheap/VeryCheap/Classes/Other(其他)/PrefixHeader/TFMacroPrefix.pch";
 				INFOPLIST_FILE = VeryCheap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xtfei.VeryCheap;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/VeryCheap/Classes/Other(其他)/友盟分享/UMSocial/SocialLibraries/QQ",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haopianyi.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

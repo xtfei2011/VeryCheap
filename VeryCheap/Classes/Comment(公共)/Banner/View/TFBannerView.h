@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class TFBannerView,TFBanner;
-typedef void(^BannerViewClick)(TFBannerView *bannerView ,NSInteger index);
+typedef void(^BannerViewClick)(TFBannerView *bannerView ,NSString *type ,NSString *name);
 
 @interface TFBannerView : UIView<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
@@ -22,5 +22,5 @@ typedef void(^BannerViewClick)(TFBannerView *bannerView ,NSInteger index);
 /*** 初始化 ***/
 - (instancetype)initWithFrame:(CGRect)frame viewSize:(CGSize)viewSize;
 /*** 点击事件 Block ***/
-- (void)bannerViewClick:(void(^)(TFBannerView *barnerView ,NSInteger index))block;
+- (void)bannerViewClick:(void(^)(TFBannerView *barnerView ,NSString *type ,NSString *name))block;
 @end

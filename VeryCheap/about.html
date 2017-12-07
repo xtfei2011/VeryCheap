@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+            <title>新手指南</title>
+            <style type="text/css">
+                *{margin:0;padding:0;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+                body{font-family: "helvetica neue", arial, sans-serif;}
+                .wrapper{background-color: #ffffff;width: 100%;max-width: 640px;margin: 0 auto;}
+                .banner{position: relative;min-height:150px;padding-bottom: 10px;}
+                .banner img{width: 100%;}
+                h3,h4{font-size: 17px;font-weight: normal;text-align: center;color: #000;line-height: 1.2;padding-bottom: 10px;}
+                h3{font-size: 19px;}
+                .content{font-size: 15px;color: #000;line-height: 1.7;}
+                .content p{margin: 15px;}
+                .content p:first-child{margin: 0;}
+                .content p img{display: block;border: none;}
+                </style>
+    </head>
+    <body>
+        <div class="wrapper content">
+            <p><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb46qd8erc182o1pub1mcad.jpg" style="max-width:100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb46uo51tki5s41efb5bde.jpg" style="max-width: 100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb461qnb2t21id1bojsrof.jpg" style="max-width: 100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb46b9h1a8ckqc1d8v2m1g.jpg" style="max-width: 100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb461b9i1ama1h2q1qjp1pc7h.jpg" style="max-width: 100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb461b8onrbfg31f7f1tp8i.jpg" style="max-width: 100%;"><img src="http://7q5ak9.com2.z0.glb.qiniucdn.com/o_1bnq0cb463n91ilgencrjt1dd3j.jpg" style="max-width: 100%;"></p>
+        </div>
+        <script type="text/javascript" src="http://7xllts.com2.z0.glb.qiniucdn.com/mjs/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+            function incr(key){
+                $.ajax({
+                       url:'/operation/eventIncr',
+                       type:'GET',
+                       dataType:'json',
+                       data:{
+                       'key':key
+                       },
+                       success:function(){}
+                       });
+            }
+        
+        $(function(){
+          var pageId = '42';
+          incr('oper_landing_'+pageId);
+          var links = $('.wrapper a');
+          for(var i=0,len=links.length;i<len;i++){
+          (function(m){
+           $(links[m]).click(function(){
+                             incr('oper_landing_'+pageId+'_link_'+(m+1));
+                             });
+           })(i);
+          }
+          });
+            </script>
+    </body>
+</html>

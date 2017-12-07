@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TFSpecialViewController : UIViewController
+@interface TFSpecialViewController : UICollectionViewController
 
 @end

@@ -10,4 +10,6 @@
 
 @interface TFBanner : NSObject
 @property (nonatomic ,strong) NSString *pic;
+@property (nonatomic ,strong) NSString *type;
+@property (nonatomic ,strong) NSString *name;
 @end

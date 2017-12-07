@@ -50,10 +50,10 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
         _bannerCollectionView = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:self.layout];
         _bannerCollectionView.delegate = self;
         _bannerCollectionView.dataSource = self;
-        _bannerCollectionView.showsHorizontalScrollIndicator = NO;
-        _bannerCollectionView.pagingEnabled = YES;
+        _bannerCollectionView.showsHorizontalScrollIndicator = false;
+        _bannerCollectionView.pagingEnabled = true;
         _bannerCollectionView.backgroundColor = [UIColor clearColor];
-        [_bannerCollectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:TFMaxSections/2] atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
+        [_bannerCollectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:0 inSection:TFMaxSections/2] atScrollPosition:UICollectionViewScrollPositionLeft animated:true];
         
         /*** 注册 CollectionViewCell ***/
         [self registerCollectionViewCell];
@@ -106,11 +106,11 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
     _banner = banner;
     
     if (_banner.count < 2) {
-        self.bannerCollectionView.scrollEnabled = NO;
-        [self.pageControl setHidden:YES];
+        self.bannerCollectionView.scrollEnabled = false;
+        [self.pageControl setHidden:true];
     } else {
-        self.bannerCollectionView.scrollEnabled = YES;
-        [self.pageControl setHidden:NO];
+        self.bannerCollectionView.scrollEnabled = true;
+        [self.pageControl setHidden:false];
     }
     
     [self.bannerCollectionView reloadData];
@@ -127,7 +127,7 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
 /*** 添加定时器 ***/
 - (void)initiateTimer
 {
-    _timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(nextPage) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(nextPage) userInfo:nil repeats:true];
     
     [[NSRunLoop mainRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
 }
@@ -139,7 +139,7 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
     NSIndexPath *indexPath = [[self.bannerCollectionView indexPathsForVisibleItems] lastObject];
     NSIndexPath *indexPathSet = [NSIndexPath indexPathForItem:indexPath.row inSection:TFMaxSections/2];
     
-    [self.bannerCollectionView scrollToItemAtIndexPath:indexPathSet atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+    [self.bannerCollectionView scrollToItemAtIndexPath:indexPathSet atScrollPosition:UICollectionViewScrollPositionLeft animated:false];
     NSInteger nextItem = indexPathSet.item + 1;
     NSInteger nextSection = indexPathSet.section;
     
@@ -150,13 +150,13 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
     
     NSIndexPath *nextIndexPath = [NSIndexPath indexPathForItem:nextItem inSection:nextSection];
     
-    [self.bannerCollectionView scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
+    [self.bannerCollectionView scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:true];
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     if (self.bannerClick) {
-        self.bannerClick(self, indexPath.row);
+        self.bannerClick(self, _banner[indexPath.row].type ,_banner[indexPath.row].name);
     }
 }
 
@@ -177,7 +177,7 @@ static NSString *const TFBannerCollectionViewID = @"TFBannerCollectionViewCell";
     [self initiateTimer];
 }
 
-- (void)bannerViewClick:(void (^)(TFBannerView *, NSInteger))block
+- (void)bannerViewClick:(void (^)(TFBannerView *, NSString * ,NSString *))block
 {
     self.bannerClick = block;
 }

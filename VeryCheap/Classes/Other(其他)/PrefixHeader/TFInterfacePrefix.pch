@@ -15,6 +15,7 @@
 #ifdef __OBJC__
 
 /*** 公共接口 ***/
+#define Comment_DataInterface @"http://ppapi.haopianyi.com/Public/v3/"
 #define Common_Interface_Montage(A)  [NSString stringWithFormat:@"%@%@", Comment_DataInterface ,A]
 
 /*** 双参公共接口 ***/

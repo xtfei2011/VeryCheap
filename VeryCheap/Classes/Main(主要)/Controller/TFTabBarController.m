@@ -33,13 +33,13 @@
 {
     /*** 默认状态下 TabarItem 的 Font 、 Color ***/
     NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
-    normalAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+    normalAttrs[NSFontAttributeName] = TFCommodityTitleFont;
     normalAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
     
     /*** 选中状态下 TabarItem 的 Font 、 Color ***/
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
     selectedAttrs[NSFontAttributeName] = normalAttrs[NSFontAttributeName];
-    selectedAttrs[NSForegroundColorAttributeName] = TFColor(245, 80, 83);
+    selectedAttrs[NSForegroundColorAttributeName] = TFColor(251, 44, 107);
     
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
@@ -52,9 +52,9 @@
 - (void)setupChildViewControllers
 {
     [self setupChildViewController:[[TFHomeViewController alloc] init] title:@"首页" image:@"tabBar_home" selectedImage:@"tabBar_home_selected"];
-    [self setupChildViewController:[[TFCouponsViewController alloc] init] title:@"找劵" image:@"tabBar_category" selectedImage:@"tabBar_category_selected"];
-    [self setupChildViewController:[[TFSpecialViewController alloc] init] title:@"特卖" image:@"tabBar_gift" selectedImage:@"tabBar_gift_selected"];
-    [self setupChildViewController:[[TFMineViewController alloc] init] title:@"我的" image:@"tabBar_me_boy" selectedImage:@"tabBar_me_boy_selected"];
+    [self setupChildViewController:[[TFSpecialViewController alloc] init] title:@"9.9包邮" image:@"tabBar_gift" selectedImage:@"tabBar_gift_selected"];
+    [self setupChildViewController:[[TFCouponsViewController alloc] init] title:@"分类" image:@"tabBar_category" selectedImage:@"tabBar_category_selected"];
+    [self setupChildViewController:[[TFMineViewController alloc] init] title:@"我的" image:@"tabBar_me" selectedImage:@"tabBar_me_selected"];
 }
 
 /**

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TFCommentViewController : UITableViewController
-@property (nonatomic ,assign) BOOL isHome;
+@interface TFCommentViewController : UICollectionViewController
+@property (nonatomic ,copy) NSString *loadKey;
 @end

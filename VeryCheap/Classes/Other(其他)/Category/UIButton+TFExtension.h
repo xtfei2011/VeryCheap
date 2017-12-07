@@ -8,15 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-static NSString *xtf_textWidth;
-static NSString *xtf_textMinX;
-static NSString *xtf_textMaxX;
+/*** UIButton中图片和文字的关系 ***/
+typedef NS_ENUM(NSInteger, TFButtonImageTitleStyle ) {
+    TFButtonImageTitleStyleLeft      = 0,     //图片在左，文字在右，整体居中。
+    TFButtonImageTitleStyleRight     = 2,     //图片在右，文字在左，整体居中。
+};
 
 @interface UIButton (TFExtension)
-/*** textWidth ***/
-@property (nonatomic ,assign) CGFloat textWidth;
-/*** textMinX ***/
-@property (nonatomic ,assign ,readonly) CGFloat textMinX;
-/*** textMaxX ***/
-@property (nonatomic ,assign ,readonly) CGFloat textMaxX;
+
+/**
+ *  调整按钮的文本图片布局
+ *
+ *  @param style            按钮样式
+ *  @param padding          间距
+ */
+- (void)setButtonImageTitleStyle:(TFButtonImageTitleStyle)style padding:(CGFloat)padding;
 @end

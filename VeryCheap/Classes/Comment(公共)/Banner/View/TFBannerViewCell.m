@@ -23,6 +23,6 @@
 {
     _banner = banner;
     
-    [self.imageView sd_setImageWithURL:[NSURL URLWithString:banner.pic]];
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:banner.pic] placeholderImage:[UIImage imageNamed:@"Image_column_default"]];
 }
 @end

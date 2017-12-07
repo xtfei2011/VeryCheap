@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TFTabBarController.h"
+#import "TFShareManager.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +23,30 @@
     self.window.backgroundColor = TFGlobalBg;
     self.window.rootViewController = [[TFTabBarController alloc] init];
     
+    /*** 友盟分享 ***/
+    [TFShareManager setupShareAppKey];
+    
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+/*** 分享回调方法 ***/
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
+    
+    return result;
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    
+    [application setApplicationIconBadgeNumber:0];
+    [application cancelAllLocalNotifications];
 }
 @end
